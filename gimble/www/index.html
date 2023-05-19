@@ -29,10 +29,16 @@
         <title>Gimble</title>
     </head>
     <body>
+        <span id="span"></span>
         <video autoplay id="video"></video>
+        <div class="rots">
+            <p class="cors" id="x-deg">X:0</p>
+            <p class="cors" id="y-deg">Y:0</p>
+            <p class="cors" id="z-deg">Z:0</p>
+        </div>
         <div class="div">
             <p>FPS</p>
-            <input type="number" id="fps">
+            <input type="number" id="fps" value="30">
             <button id="record"></button>
         </div>
         <script src="cordova.js"></script>

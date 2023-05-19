@@ -13,6 +13,17 @@ body, html {
     backdrop-filter: blur(10px);
 }
 
+#span {
+    width: 1px;
+    height: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border: none;
+    background-color: rgb(255, 46, 91);
+}
+
 #record {
     position: fixed;
     left: 50%;
@@ -59,4 +70,24 @@ p {
     top: 0;
     z-index: -1;
     overflow: hidden;
+}
+
+.rots {
+    position: absolute;
+    bottom: 130px;
+    width: 100%;
+    left: 0;
+    background-color: transparent;
+    height: 30px;
+    display: inline-flex;
+}
+
+.cors {
+    position: relative;
+    display: inline-flex;
+    left: 0;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 12pt;
 }
